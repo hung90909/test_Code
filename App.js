@@ -21,7 +21,7 @@ export default function App() {
       return;
     }
     if (password !== confirmPassword) {
-      Alert.alert('Error', 'Password does not match');
+      Alert.alert('Error', 'Mật khẩu ko trùng nhau');
       return;
     }
 
